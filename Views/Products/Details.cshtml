@@ -64,6 +64,7 @@
         border-radius: 5px;
         font-size: 18px;
         text-align: center;
+        cursor: pointer;
     }
 
     .back-link {
@@ -72,6 +73,39 @@
         color: #009688;
         font-weight: bold;
         text-decoration: none;
+    }
+
+    /* Стили для модального окна */
+    .modal {
+        display: none;
+        position: fixed;
+        z-index: 1000;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.4);
+        justify-content: center;
+        align-items: center;
+    }
+
+    .modal-content {
+        background-color: white;
+        padding: 20px;
+        border-radius: 8px;
+        text-align: center;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .modal button {
+        margin-top: 10px;
+        padding: 8px 12px;
+        border: none;
+        background-color: #ff6600;
+        color: white;
+        font-size: 16px;
+        cursor: pointer;
+        border-radius: 5px;
     }
 </style>
 
@@ -88,9 +122,28 @@
 
         <div class="seller-info">
             <p class="seller-name">Продавец: Иван Иванов</p>
-            <a href="tel:+79990001122" class="call-button">Позвонить</a>
+            <a href="tel:+79990001122" class="call-button" onclick="showCallModal(event)">Позвонить</a>
         </div>
     </div>
 
     <a href="/Products" class="back-link">← Вернуться к списку</a>
 </div>
+
+<!-- Модальное окно -->
+<div id="callModal" class="modal">
+    <div class="modal-content">
+        <p>📞 Вы позвонили!</p>
+        <button onclick="closeCallModal()">OK</button>
+    </div>
+</div>
+
+<script>
+    function showCallModal(event) {
+        event.preventDefault(); // Отменяем переход по ссылке
+        document.getElementById("callModal").style.display = "flex";
+    }
+
+    function closeCallModal() {
+        document.getElementById("callModal").style.display = "none";
+    }
+</script>
