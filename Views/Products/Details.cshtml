@@ -1,0 +1,11 @@
+﻿@model VMGsite.Models.Product
+
+@{
+    ViewData["Title"] = "Product Details";
+}
+
+<h1>@Model.Name</h1>
+<img src="@Model.ImageUrl" alt="@Model.Name" />
+<p>Price: $@Model.Price</p>
+<p>@Model.Description</p>
+<a href="/Products">Back to List</a>

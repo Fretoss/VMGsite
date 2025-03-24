@@ -1,0 +1,14 @@
+[
+  {
+    "ImageUrl": "https://example.com/image1.jpg",
+    "Name": "Product 1",
+    "Price": 19.99,
+    "Description": "This is a description of product 1."
+  },
+  {
+    "ImageUrl": "https://example.com/image2.jpg",
+    "Name": "Product 2",
+    "Price": 29.99,
+    "Description": "This is a description of product 2."
+  }
+]
