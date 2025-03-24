@@ -6,9 +6,19 @@ namespace VMGsite.Controllers
 {
     public class ProductsController : Controller
     {
-        public IActionResult Index()
+        public IActionResult Index(string query)
         {
             var products = GetProducts();
+
+            // Если введен запрос, фильтруем товары
+            if (!string.IsNullOrEmpty(query))
+            {
+                products = products
+                    .Where(p => p.Name.Contains(query, StringComparison.OrdinalIgnoreCase) ||
+                                p.Description.Contains(query, StringComparison.OrdinalIgnoreCase))
+                    .ToList();
+            }
+
             return View(products);
         }
 

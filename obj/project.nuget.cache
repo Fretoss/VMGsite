@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "Cy1ZKgmE1JRiXEG4sNhR6g7TL+wcM5NO4/k3QlLf2PsnX8mDQPKBa5kZez2kFMRxaynXC9wQOJrB5kwqaJcrfg==",
+  "dgSpecHash": "ifR3z/LkLrmOvs5mytg2bXqxogTv6Tdx/5gJNiXYpuawL2+2uzJXy4LaQhncsdiGYRe1geaAAKvKPoRYfw5ncw==",
   "success": true,
-  "projectFilePath": "C:\\xampp\\htdocs\\VMGsite\\VMGsite.csproj",
+  "projectFilePath": "C:\\Users\\andre\\source\\repos\\VMGsite\\VMGsite.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\st310-04\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+    "C:\\Users\\andre\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
   ],
   "logs": []
 }

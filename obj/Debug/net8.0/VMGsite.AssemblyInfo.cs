@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("VMGsite")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+357af37704e832db2e77fdb46210821060bb5fd5")]
 [assembly: System.Reflection.AssemblyProductAttribute("VMGsite")]
 [assembly: System.Reflection.AssemblyTitleAttribute("VMGsite")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,14 +1,37 @@
 [
   {
-    "ImageUrl": "https://example.com/image1.jpg",
-    "Name": "Product 1",
-    "Price": 19.99,
-    "Description": "This is a description of product 1."
+    "id": 1,
+    "ImageUrl": "https://zakaz.s-globus.ru/media/Zakaz/Product/2024-04-10/Zakaz/Product/2024-04-10/343300fa2a36738d58195f8d79aa1770_0.jpg",
+    "Name": "Бананы",
+    "Price": 5.99,
+    "Description": "Бананы — это питательный и сладкий фрукт с мягкой текстурой, богатый калием и витаминами."
   },
   {
-    "ImageUrl": "https://example.com/image2.jpg",
-    "Name": "Product 2",
-    "Price": 29.99,
-    "Description": "This is a description of product 2."
+    "id": 2,
+    "ImageUrl": "https://img.freepik.com/free-photo/green-apple-isolated-white_2829-9403.jpg",
+    "Name": "Яблоки зел",
+    "Price": 7.99,
+    "Description": "Яблоки — это сочные и хрустящие фрукты, богатые витаминами, клетчаткой и антиоксидантами."
+  },
+  {
+    "id": 3,
+    "ImageUrl": "https://fruitonline.ru/image/cache/catalog/pomelo_thai-800x1000.jpg",
+    "Name": "Помело",
+    "Price": 6.99,
+    "Description": "Помело — это крупный цитрусовый фрукт с сочной мякотью, сладким вкусом и высоким содержанием витамина C."
+  },
+  {
+    "id": 4,
+    "ImageUrl": "https://img.freepik.com/premium-photo/pears-with-leaf-white-background-one-fresh-pear_299651-390.jpg",
+    "Name": "Груша",
+    "Price": 4.99,
+    "Description": "Груши — это сочные и сладкие фрукты с мягкой зернистой мякотью, богатые клетчаткой и витаминами."
+  },
+  {
+    "id": 5,
+    "ImageUrl": "https://thumbs.dreamstime.com/b/%D0%B4%D1%8B%D0%BD%D1%8F-380795.jpg",
+    "Name": "Дыня",
+    "Price": 6.99,
+    "Description": "Дыня — это сочный и ароматный фрукт с сладкой мякотью, богатый витаминами и влагой."
   }
 ]
